@@ -36,7 +36,9 @@ RUN \
     apk add \
     libxml2 \
     ncurses \
-    libstdc++
+    libstdc++ \
+    unrar \
+    p7zip
 # Expose port 6789 to allow access to the Web interface
 EXPOSE 6789
 # Set the configuration file for NZBGet as an external volume
